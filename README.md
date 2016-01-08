@@ -1,25 +1,14 @@
-Ionic App Base
+Android Chat app
 =====================
 
-A starting project for Ionic that optionally supports using custom SCSS.
+Powered by Ionic, Angular.js, Firebase.js
 
-## Using this project
+![ScreenShot](https://dl.dropboxusercontent.com/u/686781/Screenshot%20for%20Github/Ionic-Angular-Chat/Screen%20Shot%202016-01-08%20at%209.58.34%20AM.png)
 
-We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
+![ScreenShot](https://dl.dropboxusercontent.com/u/686781/Screenshot%20for%20Github/Ionic-Angular-Chat/Screen%20Shot%202016-01-08%20at%2010.02.18%20AM.png)
 
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
+![ScreenShot](https://dl.dropboxusercontent.com/u/686781/Screenshot%20for%20Github/Ionic-Angular-Chat/Screen%20Shot%202016-01-08%20at%2010.02.40%20AM.png)
 
-```bash
-$ npm install -g ionic
-```
+![ScreenShot](https://dl.dropboxusercontent.com/u/686781/Screenshot%20for%20Github/Ionic-Angular-Chat/Screen%20Shot%202016-01-08%20at%2010.03.02%20AM.png)
 
-Then run:
-
-```bash
-$ ionic start myProject tabs
-```
-
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
-
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
+![ScreenShot](https://dl.dropboxusercontent.com/u/686781/Screenshot%20for%20Github/Ionic-Angular-Chat/Screen%20Shot%202016-01-08%20at%2010.15.13%20AM.png)
