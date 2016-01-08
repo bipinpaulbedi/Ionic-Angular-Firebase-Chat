@@ -1,0 +1,22 @@
+<ion-view view-title="Get Me Something">
+ <ion-nav-buttons side="secondary">
+    <button class="button icon ion-log-out" ng-click="logout()">
+      Logout
+    </button>
+  </ion-nav-buttons>
+  <ion-content class="padding">
+    <div ng-if="item.authData">
+      <label class="item item-input item-floating-label newItemLabel">
+        <span class="input-label newItemText">I am looking for</span>
+        <input type="text" ng-model="item.itemName" placeholder="I am looking for <<Something>>">
+      </label>
+      <label class="item item-input item-floating-label newItemLabel">
+        <span class="input-label newItemText">at</span>
+        <input type="text" ng-model="item.itemLocation" placeholder="at <<Location>>">
+      </label>
+      <button class="button button-block button-calm" ng-click="addItem()">
+        Get It !!!
+      </button>
+    </div>
+  </ion-content>
+</ion-view>

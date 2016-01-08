@@ -1,0 +1,31 @@
+<ion-view view-title="Get Me Something">
+<ion-nav-buttons side="secondary">
+<button class="button icon ion-log-out" ng-click="logout()">
+	Logout
+</button>
+</ion-nav-buttons>
+<ion-content>
+	<div ng-if="authData">
+		<div class="list list-inset">
+			<label class="item item-input">
+				<i class="icon ion-search placeholder-icon"></i>
+				<input type="text" ng-model="searchText" placeholder="Search">
+			</label>
+		</div>
+		<ion-item ng-repeat="item in openItems | filter:searchText">
+		<div>
+			<div class="itemImage" style="background-image: url('{{item.userImgUrl}}')"></div>
+			<div>
+				<div class="requestItems">
+					<u>{{item.userName}}</u> <a ng-if="authData.uid != item.user" href="#/tab/chats/{{item.key}}/{{item.user}}" class="ion-ios-chatbubble-outline chatLink"> Chat </a></div>
+					<div class="itemDesc requestItems">
+						<div>
+							<span class="newItemText">{{item.item}}</span> in <b>{{item.location}}</b>
+						</div>
+					</div>
+				</div>
+			</div>
+		</ion-item>
+	</div>
+</ion-content>
+</ion-view>

@@ -1,0 +1,20 @@
+<ion-view view-title="Chats">
+ <ion-nav-buttons side="secondary">
+    <button class="button icon ion-log-out" ng-click="logout()">
+      Logout
+    </button>
+  </ion-nav-buttons>
+  <ion-content>
+    <div ng-if="authData">
+      <ion-list>
+        <ion-item ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.key}}/{{chat.user}}">
+          <div class="itemImage" style="background-image: url('{{chat.url}}')"></div>
+          <div class="chatBorder chatItems">
+            <h2><span class="newItemText">{{chat.productdesc}}</span></h2>
+            <p>{{chat.displayName}}</p>
+          </div>
+        </ion-item>
+      </ion-list>
+    </div>  
+  </ion-content>
+</ion-view>
